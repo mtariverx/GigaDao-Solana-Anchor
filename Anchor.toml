@@ -1,0 +1,15 @@
+[programs.localnet]
+gigadao_staking = "AGi7p8RritzUDX4sCYVfxApCH4By8FEpSV4ffL7bZ8Kp"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+#cluster = "testnet"
+#cluster = "localnet"
+cluster = "mainnet"
+#cluster = "devnet"
+wallet = "/home/myware/.config/solana/mainnet.json"
+
+[scripts]
+test = "yarn run ts-mocha -t 1000000 tests/*.ts"
